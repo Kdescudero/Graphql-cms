@@ -1,0 +1,14 @@
+# Estandarizar el codigo
+
+root = true
+
+[*]
+indent_style = space # Tipo de indentación
+indent_size = 2 # El tamaño del espacio
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true # insertar una linea al final de cada archivo
+
+[*.md]
+trim_trailing_whitespace = false

@@ -29,7 +29,7 @@ export default(sequealize,{ BOOLEAN, STRING, UUIDV4, TEXT, UUID }) => {
          allowNull      : false,
          defaultValue   : "es"
       },
-      img : {
+      image : {
          type : STRING
       },
       published : {
@@ -51,4 +51,4 @@ export default(sequealize,{ BOOLEAN, STRING, UUIDV4, TEXT, UUID }) => {
    }
 
    return Post
-}  
+}

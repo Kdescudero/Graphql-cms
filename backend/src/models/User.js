@@ -36,7 +36,7 @@ export default (sequealize,{ BOOLEAN, STRING, UUIDV4, UUID }) => {
                args  :     true,
                msg   :     "Invalid email"
             }
-         } 
+         }
       },
       privilege :  {
          type           :  STRING,
@@ -47,7 +47,7 @@ export default (sequealize,{ BOOLEAN, STRING, UUIDV4, UUID }) => {
          type           :  BOOLEAN,
          allowNull      :  false,
          defaultValue   :  false
-      } 
+      }
    }, {
       hooks: {
          beforeCreate: user => {

@@ -1,3 +1,14 @@
+// Configuración para que funciones el asycn y await
+
 {
-   "presets": ["@babel/preset-env"]
-} 
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ]
+}
